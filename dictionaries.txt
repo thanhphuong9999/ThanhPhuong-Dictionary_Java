@@ -26,6 +26,7 @@ carer	nguoi lam nghe cham soc nguoi om
 carpenter	tho moc   
 cashier	nhan vien ngan thu
 chain	day xich, day chuyen (lam viec...)
+cheekbone	go ma
 chemist	nha nghien cuu hoa hoc
 chicken	ga con, thit ga
 cleaner	nhan vien lau don    
@@ -44,6 +45,7 @@ dustman	nguoi thu rac
 electrician	tho dien  
 engineer	ky su
 export	xuat khau
+eye	mat
 farmer	nong dan 
 fireman	linh cuu hoa
 fisherman	ngu dan
@@ -55,10 +57,12 @@ gardener	nguoi lam vuon
 girl	con gai
 grape	qua nho
 group	nhom; (hoa hoc) nhom, goc
+hairline	duong che toc
 homemaker	nguoi giup viec nha
 hot dog	xuc xich
 housekeeper	nhan vien don phong khach san
 housewife	noi tro
+index finger	ngon tro
 insect	con trung
 janitor	quan gia
 journalist	nha bao
@@ -68,6 +72,7 @@ lawyer	luat su
 lecturer	giang vien dai hoc
 librarian	thu thu
 lifeguard	nhan vien cuu ho
+lips	moi
 loss	su mat di (cai gi), su mat mat
 maid	nguoi giup viec
 manager	quan ly
@@ -80,8 +85,10 @@ monkey	con khi
 mother	me
 mover	nhan vien don nha
 musician	nhac si
+nose	mui
 nurse	y ta
 painter	hoa si
+palm	long ban tay
 pencil	but bi
 photographer	tho chup anh
 pillot	phi cong
@@ -92,6 +99,7 @@ programmer	lap trinh vien may tinh
 psychiatrist	nha tam ly hoc   
 receptionist	nhan vien tiep tan
 repairperson	tho sua chua
+ring finger	ngon ap ut
 saleperson	nhan vien ban hang
 sales assistant	tro ly ban hang   
 school	truong hoc
@@ -108,6 +116,8 @@ supervisor	nguoi giam sat
 surgeon	bac si phau thuat 
 tailor	tho may
 technician	ky thuat vien
+thumb	ngon cai
 translator	thong dich vien
 unemployed	that nghiep
 winter	mua dong
+wirst	co tay
