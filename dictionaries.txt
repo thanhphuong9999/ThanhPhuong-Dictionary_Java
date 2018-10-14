@@ -23,7 +23,7 @@ ball	qua bong
 ban	cam, cam chi; su cam
 band	bang, dai, nep
 bandage	dai bang; bang bo
-bank	bo (song�) , de
+bank	bo (song?) , de
 bar	quan ban ruou
 barber	tho cat toc
 bargain	su mac ca, su giao keo mua ban
@@ -55,6 +55,12 @@ chemist	nha nghien cuu hoa hoc
 chicken	ga con, thit ga
 cleaner	nhan vien lau don    
 cook	dau bep
+cook	nau an, nguoi nau an
+cooker	lo, bep, noi nau
+cookie	banh quy
+cooking	su nau an, cach nau an
+cool	mat me, diem tinh; lam mat
+cope with	doi pho, duong dau
 counsellor	uy vien hoi dong  
 custodian	nguoi lau don
 dancer	dien vien mua
