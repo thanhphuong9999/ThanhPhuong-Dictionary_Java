@@ -2,6 +2,12 @@ a-plenty	nhieu, doi dao
 accountant	ke toan
 activate	kich hoat
 actress	nu dien vien
+anywhere	bat cu cho nao, bat cu noi dau
+apart	ve mot ben, qua mot ben
+apartment	can phong, can buong
+apologize	xin loi, ta loi
+apparent	ro rang, ranh mach; be ngoai, co ve
+apparently	nhin ben ngoai, hinh nhu
 architect	kien truc su
 artist	hoa si
 assembler	cong nhan lap rap
@@ -12,11 +18,29 @@ babe	tre so sinh
 babysister	nguoi giu tre ho
 back	tro lai, tro ve
 baker	tho lam banh mi  
+balance	cai can; lam cho can bang, tuong xung
+ball	qua bong
+ban	cam, cam chi; su cam
+band	bang, dai, nep
+bandage	dai bang; bang bo
+bank	bo (song�) , de
+bar	quan ban ruou
 barber	tho cat toc
+bargain	su mac ca, su giao keo mua ban
 barmaid	nu nhan vien ban ruou 
 barman	nam nhan vien ban ruou
+barrier	dat chuong ngai vat
 bartender	nguoi pha ruou
 bathroom	phong tam
+below	o duoi, duoi thap, phia duoi
+belt	day lung, that lung
+bend	cho re, cho uon; khuyu tay; cui xuong, uon cong
+beneath	o duoi, duoi thap
+benefit	loi, loi ich; giup ich, lam loi cho
+bent	khieu, so thich, khuynh huong
+beside	ben canh, so voi
+bet	danh cuoc, ca cuoc; su danh cuoc
+betting	su danh cuoc
 book	quyen sach
 bricklayer	tho ho
 builder	tho xay    
@@ -97,6 +121,31 @@ plumber	tho sua ong nuoc
 postman	nguoi dua thu
 programmer	lap trinh vien may tinh
 psychiatrist	nha tam ly hoc   
+pursue	duoi theo, duoi bat
+push	xo day; su xo day
+put	dat, de, cho vao
+qualification		pham chat, nang luc
+qualified	du tu cach, dieu kien, kha nang
+qualify	du kha nang, du tu cach, dieu kien
+quality	chat luong, pham chat
+quantity	luong, so luong
+quarter	1/4, 15 phut
+question	cau hoi; hoi, chat van
+ready	san sang
+real	thuc, thuc te, co that
+realistic	hien thuc
+reality	su that, thuc te, thuc tai
+realize	thuc hien, thuc hanh
+really	thuc, thuc ra, thuc su
+rear	phia sau; o dang sau, o dang sau
+reason	ly do, ly le
+reasonable	co ly, hop ly
+reasonably	hop ly
+recall	goi ve, trieu hoi; nhac lai, goi lai
+receipt	cong thuc; don thuoc
+receive	nhan, linh, thu
+recent	gan day, moi day
+recently	gan day, moi day
 receptionist	nhan vien tiep tan
 repairperson	tho sua chua
 ring finger	ngon ap ut
@@ -108,7 +157,20 @@ secretary	thu ky
 sex	gioi tinh
 shopkeeper	chu cua hang   
 should	nen
+sing	hat, ca hat
 singer	ca si   
+singer	ca si
+singing	su hat, tieng hat
+single	don, don doc, don le
+sink	chim, lun, dam
+sir	xung ho lich su Ngai, Ong
+sit	ngoi
+sit down	ngoi xuong
+site	cho, vi tri
+situation	hoan canh, dia the, vi tri
+size	co
+sized	da duoc dinh co
+skilful	tai gioi, kheo tay
 skill	ky nang
 soldier	quan nhan
 student	hoc sinh
@@ -120,4 +182,43 @@ thumb	ngon cai
 translator	thong dich vien
 unemployed	that nghiep
 winter	mua dong
-wirst	co tay
+wirst	co taywith	voi, cung
+withdraw	rut, rut khoi, rut lui
+within	trong vong thoi gian, trong khoang thoi gian
+without	khong, khong co
+witness	su lam chung, bang chung; chung kien, lam chung
+woman	dan ba, phu nu
+wonder	ngac nhien, lay lam la, kinh ngac
+wonderful	phi thuong, khac thuong, ky dieu, tuyet voi
+wood	go
+wooden	lam bang go
+wool	len
+word	tu
+work	lam viec, su lam viec
+worker	nguoi lao dong
+working	su lam, su lam viec
+world	the gioi
+worried	bon chon, lo nghi, to ra lo lang
+worry	lo lang, suy nghi; su lo lang, suy nghi
+worrying	gay lo lang, gay lo nghi
+worse	xau hon, toi hon, te hon
+worship	su ton tho, su ton sung; tho, tho phung, ton tho
+worst	xau nhat, toi nhat, te nhat
+worth	dang gia, co gia tri
+wound	vet thuong, thuong tich; lam bi thuong, gay thuong tich
+wounded	bi thuong
+wrap	goi, boc, quan
+wrapping	vat bao boc, vat quan quanh
+wrist	co tay
+write	viet writing
+writer	nguoi viet
+writing	su viet
+written	viet ra, duoc thao ra
+wrong	sai
+wrong	mac loi, sai lam
+wrongly	mot cach bat cong, khong dung
+yawn	ha mieng; cu chi ngap
+year	nam
+yellow	vang; mau vang
+yesterday	hom qua
+yet	con, hay con, con nua; nhu ma
