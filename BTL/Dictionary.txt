@@ -3,7 +3,6 @@ a couple	một cặp vợ chồng
 abandon	từ bỏ
 abandoned	bị bỏ rơi
 ability	có khả năng
-able	có thể
 about	trong khoảng
 above	ở trên
 abroad	ở nước ngoài
@@ -137,6 +136,7 @@ amount to	tổng cộng
 amuse	thích thú
 amused	thích thú
 amusing	vui
+an	một
 analyse	phân tích
 analysis	phân tích
 ancient	xưa
@@ -1532,6 +1532,7 @@ goal	mục tiêu
 god	thượng đế
 gold	vàng
 good	tốt
+good luck	chúc may mắn
 goodbye	tạm biệt
 goods	các mặt hàng
 govern	quản lý
@@ -3903,4 +3904,3 @@ yourself	bản thân bạn
 youth	thiếu niên
 zero	số không
 zone	khu vực
-good luck	chúc may mắn

@@ -1,4 +1,3 @@
-import static java.awt.image.ImageObserver.HEIGHT;
 import javax.swing.JOptionPane;
 public class addWord extends javax.swing.JFrame{
     public addWord(){
@@ -107,7 +106,8 @@ public class addWord extends javax.swing.JFrame{
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         if ("".equals(tuMoi.getText()) || "".equals(nghiaTV.getText())) {
             JOptionPane.showMessageDialog(rootPane, "Khong duoc de trong", null, HEIGHT);
-        } else {
+        } 
+        else {
             for (Word ele : Dictionary.word) {
                 if (ele.getWord_target().equals(tuMoi.getText())) {
                     JOptionPane.showConfirmDialog(rootPane, "Tu can them da ton tai");
@@ -116,14 +116,13 @@ public class addWord extends javax.swing.JFrame{
             }
             Dictionary.word.add(new Word(tuMoi.getText(), nghiaTV.getText()));
             DictonaryAplication.listEnglish.addElement(tuMoi.getText());
+            JOptionPane.showMessageDialog(rootPane, "Them tu thanh cong");
             setVisible(false);
         // TODO add your handling code here:
         }
     }//GEN-LAST:event_jButton1MouseClicked
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
-        //this.setModal(false);
-        //this.setVisible(false);
         this.dispose();
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2MouseClicked

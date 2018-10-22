@@ -1,4 +1,3 @@
-import java.awt.event.*;
 import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 import com.sun.speech.freetts.*;
@@ -10,16 +9,10 @@ public class DictonaryAplication extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         this.setResizable(false);
         dic.insert();
-        for(Word ele : Dictionary.word){
-            listEnglish.addElement(ele.getWord_target());
+        for(Word w : Dictionary.word){
+            listEnglish.addElement(w.getWord_target());
             jList1.setModel(listEnglish);
         }
-        this.addWindowListener(new WindowAdapter() {
-            public void windowColsing(WindowEvent e) {
-                new DictionaryManagement().dictionaryExportToFile();
-                System.exit(0);
-            }
-        });
     }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -231,14 +224,13 @@ public class DictonaryAplication extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void seachActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_seachActionPerformed
-        for (Word ele : Dictionary.word) {
-            if (ele.getWord_target().equals(nhapES.getText())) {
-                nghiaTV.setText(ele.getWord_explain());
+        for (Word w : Dictionary.word) {
+            if (w.getWord_target().equals(nhapES.getText())) {
+                nghiaTV.setText(w.getWord_explain());
                 return;
             }
         }
         JOptionPane.showMessageDialog(rootPane, "Tu ban nhap khong co trong tu dien. Nhap lai...");
-        //new addWord(this, true).setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_seachActionPerformed
 
@@ -255,20 +247,20 @@ public class DictonaryAplication extends javax.swing.JFrame {
     }//GEN-LAST:event_nhapESMouseClicked
 
     private void jList1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jList1MouseClicked
-        for (Word ele : Dictionary.word) {
-            if (ele.getWord_target().equals(jList1.getSelectedValue())) {
-                nghiaTV.setText(ele.getWord_explain());
+        for (Word w : Dictionary.word) {
+            if (w.getWord_target().equals(jList1.getSelectedValue())) {
+                nghiaTV.setText(w.getWord_explain());
                 return;
             }
         }
         // TODO add your handling code here:
     }//GEN-LAST:event_jList1MouseClicked
-
+    // ham tra tu trong tu dien
     private void nhapESKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nhapESKeyReleased
         listEnglish.clear();
-        String S = nhapES.getText().toLowerCase();
-        Dictionary.word.stream().filter((ele) -> (ele.getWord_target().indexOf(S) == 0)).forEachOrdered((ele) -> {
-            listEnglish.addElement(ele.getWord_target());
+        String english = nhapES.getText().toLowerCase();
+        Dictionary.word.stream().filter((w) -> (w.getWord_target().indexOf(english) == 0)).forEachOrdered((w) -> {
+            listEnglish.addElement(w.getWord_target());
         });
         jList1.setModel(listEnglish);
         // TODO add your handling code here:
@@ -285,12 +277,13 @@ public class DictonaryAplication extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(rootPane, "Hay nhap tu can xoa");
         } else {
             int i = 0;
-            for (Word ele : Dictionary.word) {
-                if (ele.getWord_target().equals(es)) {
+            for (Word w : Dictionary.word) {
+                if (w.getWord_target().equals(es)) {
                     dic.word.remove(i);
                     listEnglish.remove(i);
                     jList1.setModel(listEnglish);
                     nghiaTV.setText("");
+                    JOptionPane.showMessageDialog(rootPane, "Xoa tu thanh cong");
                     return;
                 }
                 i++;
@@ -307,35 +300,28 @@ public class DictonaryAplication extends javax.swing.JFrame {
 
     private static final String VOICENAME = "kevin16";
     private void phatAmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_phatAmActionPerformed
-//        Voice voice;
-//        VoiceManager vm = VoiceManager.getInstance();
-//        voice = vm.getVoice(VOICENAME);
-//        
-//        voice.allocate();
-//        voice.speak(nhapES.getText());
         Voice voice;
-        VoiceManager vm = VoiceManager.getInstance();
-        voice = vm.getVoice(VOICENAME);
-        
+        VoiceManager a = VoiceManager.getInstance();
+        voice = a.getVoice(VOICENAME);
         voice.allocate();
         try {
-            if(jList1.getSelectedValue().equals(""))
-                return;
-            else
-            voice.speak(jList1.getSelectedValue());
+            if(jList1.getSelectedValue().equals("")){
+                 return;
+            } 
+            else{
+                voice.speak(jList1.getSelectedValue());
+            }       
         } 
         catch (Exception e) {
         }
     }//GEN-LAST:event_phatAmActionPerformed
 
+    // Mo trang API 
     private void apiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_apiActionPerformed
         new API().setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_apiActionPerformed
 
-    public void addList(){
-        this.jList1.setModel(listEnglish);
-    }
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             @Override

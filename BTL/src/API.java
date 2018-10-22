@@ -1,13 +1,11 @@
 import com.sun.speech.freetts.*;
 import com.darkprograms.speech.translator.GoogleTranslate;
 import java.io.IOException;
-//import com.darkprograms.speech.translator.GoogleTranslate;
+import javax.swing.JOptionPane;
 public class API extends javax.swing.JFrame {
-
     public API() {
         initComponents();
     }
-
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -131,10 +129,10 @@ public class API extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         try {
-                nghiaTV.setText(GoogleTranslate.translate("vi", nhapES.getText()));
+            nghiaTV.setText(GoogleTranslate.translate("vi", nhapES.getText()));
         } 
         catch (IOException ex) {
-           System.err.print(ex.getStackTrace());
+            JOptionPane.showMessageDialog(rootPane, "Kiem tra ket noi cua ban");
         }
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -180,6 +178,7 @@ public class API extends javax.swing.JFrame {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new API().setVisible(true);
             }
