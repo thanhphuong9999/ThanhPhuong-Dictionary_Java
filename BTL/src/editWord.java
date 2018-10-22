@@ -113,14 +113,14 @@ public class editWord extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         boolean kiemTra = false;
-        for(Word ele : Dictionary.word){
-            if(ele.getWord_target().equals(tuSua.getText())){
+        for(Word w : Dictionary.word){
+            if(w.getWord_target().equals(tuSua.getText())){
                 kiemTra = true;
                 if(!thayThe.getText().equals("")){
-                    ele.setWord_target(thayThe.getText());
+                    w.setWord_target(thayThe.getText());
                 }
                 if(!nghiaTV.getText().equals("")){
-                    ele.setWord_explain(nghiaTV.getText());
+                    w.setWord_explain(nghiaTV.getText());
                 }
                 this.setVisible(false);
             }

@@ -108,8 +108,8 @@ public class addWord extends javax.swing.JFrame{
             JOptionPane.showMessageDialog(rootPane, "Khong duoc de trong", null, HEIGHT);
         } 
         else {
-            for (Word ele : Dictionary.word) {
-                if (ele.getWord_target().equals(tuMoi.getText())) {
+            for (Word w : Dictionary.word) {
+                if (w.getWord_target().equals(tuMoi.getText())) {
                     JOptionPane.showConfirmDialog(rootPane, "Tu can them da ton tai");
                     return;
                 }
